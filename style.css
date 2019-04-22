@@ -1,0 +1,58 @@
+p {
+    white-space: pre-line;
+
+}
+
+
+
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: #f1f1f1;
+}
+
+.navbar li { 
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar li a.active {
+    background-color #4caf50;
+    color: white;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+.header{
+    
+    text-align: center;
+
+}
+
+.header h2 {
+   margin-bottom: 0px; 
+}
+
+.header p {
+    font-style: italic;
+    white-space: pre-line;
+    margin-top: 0px;
+}   
